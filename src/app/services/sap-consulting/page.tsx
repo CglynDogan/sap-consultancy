@@ -1,4 +1,5 @@
 import Layout from '@/components/Layout';
+import Link from 'next/link';
 
 export default function SAPConsulting() {
   return (
@@ -171,10 +172,10 @@ export default function SAPConsulting() {
       <div className="w-full">
         <div className="flex flex-col justify-end gap-6 px-3 xs:px-4 sm:px-6 md:px-8 lg:px-10 py-10 sm:gap-8 sm:py-20">
           <div className="flex flex-col gap-2 text-center">
-            <h1 className="text-[#111418] tracking-light text-[32px] font-bold leading-tight sm:text-4xl sm:font-black sm:leading-tight sm:tracking-[-0.033em] max-w-[720px]">
+            <h1 className="text-[#111418] tracking-light text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight w-full mx-auto">
               Ready for Strategic SAP Consulting?
             </h1>
-            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px]">
+            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px] mx-auto">
               Let's discuss your challenges and develop a customized SAP strategy for your organization.
             </p>
           </div>

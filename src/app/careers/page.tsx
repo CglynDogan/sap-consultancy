@@ -4,9 +4,9 @@ export default function Careers() {
   return (
     <Layout companyName="Tech Solutions" variant="tech-solutions" buttonText="Contact Us">
       {/* Page Header */}
-      <div className="flex flex-wrap justify-between gap-3 p-4">
-        <div className="flex min-w-72 flex-col gap-3">
-          <p className="text-[#111418] tracking-light text-[32px] font-bold leading-tight">Join Our Team</p>
+      <div className="flex flex-wrap justify-between gap-3 p-3 xs:p-4">
+        <div className="flex min-w-0 flex-col gap-3 w-full">
+          <p className="text-[#111418] tracking-light text-xl xs:text-2xl sm:text-3xl lg:text-[32px] font-bold leading-tight">Join Our Team</p>
           <p className="text-[#617589] text-sm font-normal leading-normal">
             Be part of a dynamic team that's shaping the future of SAP consulting. We offer exciting career opportunities for talented professionals.
           </p>
@@ -14,8 +14,8 @@ export default function Careers() {
       </div>
 
       {/* Why Join Us Section */}
-      <h2 className="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Why Work With Us?</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+      <h2 className="text-[#111418] text-lg xs:text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-3 xs:px-4 pb-2 xs:pb-3 pt-4 xs:pt-5">Why Work With Us?</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-3 xs:p-4">
         <div className="flex flex-col gap-2 p-4 border border-[#dbe0e6] rounded-lg">
           <h3 className="text-[#111418] text-lg font-bold leading-tight">Professional Growth</h3>
           <p className="text-[#617589] text-sm font-normal leading-normal">
@@ -43,8 +43,8 @@ export default function Careers() {
       </div>
 
       {/* Open Positions */}
-      <h2 className="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Current Openings</h2>
-      <div className="flex flex-col gap-4 p-4">
+      <h2 className="text-[#111418] text-lg xs:text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-3 xs:px-4 pb-2 xs:pb-3 pt-4 xs:pt-5">Current Openings</h2>
+      <div className="flex flex-col gap-4 p-3 xs:p-4">
         <div className="flex flex-col gap-4 p-6 border border-[#dbe0e6] rounded-lg">
           <div className="flex justify-between items-start">
             <div className="flex flex-col gap-2">
@@ -111,8 +111,8 @@ export default function Careers() {
       </div>
 
       {/* Benefits Section */}
-      <h2 className="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Benefits & Perks</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+      <h2 className="text-[#111418] text-lg xs:text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] px-3 xs:px-4 pb-2 xs:pb-3 pt-4 xs:pt-5">Benefits & Perks</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3 xs:p-4">
         <div className="flex items-center gap-3 p-4">
           <div className="w-8 h-8 bg-[#009DE0] rounded-full flex items-center justify-center text-white text-sm font-bold">✓</div>
           <p className="text-[#111418] text-sm font-medium">Competitive salary and bonuses</p>
@@ -140,18 +140,18 @@ export default function Careers() {
       </div>
 
       {/* CTA Section */}
-      <div className="@container">
-        <div className="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+      <div className="w-full">
+        <div className="flex flex-col justify-end gap-4 xs:gap-6 sm:gap-8 px-3 xs:px-4 sm:px-6 md:px-8 lg:px-10 py-8 xs:py-10 sm:py-20">
           <div className="flex flex-col gap-2 text-center">
-            <h1 className="text-[#111418] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
+            <h1 className="text-[#111418] tracking-light text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight w-full mx-auto">
               Ready to Join Our Team?
             </h1>
-            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px">
+            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px] mx-auto">
               Don't see the perfect role? Send us your resume and we'll keep you in mind for future opportunities.
             </p>
           </div>
           <div className="flex flex-1 justify-center">
-            <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#009DE0] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow">
+            <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 sm:h-12 px-4 sm:px-5 bg-[#009DE0] text-white text-sm sm:text-base font-bold leading-normal tracking-[0.015em] grow">
               <span className="truncate">Send Resume</span>
             </button>
           </div>

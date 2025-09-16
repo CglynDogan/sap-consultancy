@@ -206,22 +206,31 @@ export default function Header({
               <div key={item.name} className="border-b border-[#f0f2f4] last:border-b-0">
                 {item.hasDropdown ? (
                   <div>
-                    <button
-                      onClick={() => setIsServicesOpen(!isServicesOpen)}
-                      className={`w-full flex items-center justify-between py-3 text-left text-base font-medium ${
-                        pathname === item.href || pathname.startsWith('/services') ? 'text-[#009DE0]' : 'text-[#111418]'
-                      }`}
-                    >
-                      {item.name}
-                      <svg
-                        className={`w-4 h-4 transition-transform duration-200 ${isServicesOpen ? 'rotate-180' : ''}`}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
+                    <div className="flex items-center">
+                      <Link
+                        href={item.href}
+                        className={`flex-1 py-3 text-base font-medium ${
+                          pathname === item.href || pathname.startsWith('/services') ? 'text-[#009DE0]' : 'text-[#111418]'
+                        }`}
+                        onClick={() => setIsMobileMenuOpen(false)}
                       >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </button>
+                        {item.name}
+                      </Link>
+                      <button
+                        onClick={() => setIsServicesOpen(!isServicesOpen)}
+                        className="p-3 text-[#111418]"
+                        aria-label="Toggle services dropdown"
+                      >
+                        <svg
+                          className={`w-4 h-4 transition-transform duration-200 ${isServicesOpen ? 'rotate-180' : ''}`}
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                    </div>
                     {isServicesOpen && (
                       <div className="pl-4 pb-2">
                         {servicesDropdownItems.map((dropdownItem) => (

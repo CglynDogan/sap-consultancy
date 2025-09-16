@@ -118,18 +118,18 @@ export default function CaseStudies() {
       </div>
 
       {/* CTA Section */}
-      <div className="@container">
-        <div className="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+      <div className="w-full">
+        <div className="flex flex-col justify-end gap-4 xs:gap-6 sm:gap-8 px-3 xs:px-4 sm:px-6 md:px-8 lg:px-10 py-8 xs:py-10 sm:py-20">
           <div className="flex flex-col gap-2 text-center">
-            <h1 className="text-[#111418] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
+            <h1 className="text-[#111418] tracking-light text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight w-full">
               Ready to Start Your Success Story?
             </h1>
-            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px">
+            <p className="text-[#111418] text-sm xs:text-base font-normal leading-normal w-full">
               Let's discuss how we can help your organization achieve similar results with our SAP expertise.
             </p>
           </div>
           <div className="flex flex-1 justify-center">
-            <Link href="/contact" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#009DE0] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow">
+            <Link href="/contact" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 sm:h-12 px-4 sm:px-5 bg-[#009DE0] text-white text-sm sm:text-base font-bold leading-normal tracking-[0.015em] grow">
               <span className="truncate">Get Started</span>
             </Link>
           </div>
