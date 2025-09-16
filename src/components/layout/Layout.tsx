@@ -2,12 +2,10 @@
 
 import Header from './Header';
 import Footer from './Footer';
+import { HeaderProps } from '@/types';
 
-interface LayoutProps {
+interface LayoutProps extends HeaderProps {
   children: React.ReactNode;
-  companyName?: string;
-  variant?: 'tech-solutions' | 'innovate-solutions';
-  buttonText?: string;
 }
 
 export default function Layout({

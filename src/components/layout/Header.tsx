@@ -3,12 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useRef } from 'react';
-
-interface HeaderProps {
-  companyName?: string;
-  variant?: 'tech-solutions' | 'innovate-solutions';
-  buttonText?: string;
-}
+import { HeaderProps } from '@/types';
+import { SERVICES_DROPDOWN_ITEMS, TECH_SOLUTIONS_NAV_ITEMS, INNOVATE_SOLUTIONS_NAV_ITEMS } from '@/constants/navigation';
 
 export default function Header({
   companyName = 'Tech Solutions',
@@ -51,35 +47,13 @@ export default function Header({
   const getNavItems = () => {
     switch (variant) {
       case 'tech-solutions':
-        return [
-          { name: 'Home', href: '/' },
-          { name: 'Services', href: '/services', hasDropdown: true },
-          { name: 'About Us', href: '/about' },
-          { name: 'Case Studies', href: '/case-studies' },
-          { name: 'Insights', href: '/blog' },
-          { name: 'Careers', href: '/careers' },
-          { name: 'Contact Us', href: '/contact' }
-        ];
+        return TECH_SOLUTIONS_NAV_ITEMS;
       case 'innovate-solutions':
-        return [
-          { name: 'Services', href: '/services', hasDropdown: true },
-          { name: 'Industries', href: '#' },
-          { name: 'Solutions', href: '#' },
-          { name: 'Resources', href: '#' },
-          { name: 'About Us', href: '/about' },
-          { name: 'Contact', href: '/contact' }
-        ];
+        return INNOVATE_SOLUTIONS_NAV_ITEMS;
       default:
         return [];
     }
   };
-
-  const servicesDropdownItems = [
-    { name: 'SAP Implementation', href: '/services/sap-implementation' },
-    { name: 'SAP Consulting', href: '/services/sap-consulting' },
-    { name: 'SAP Support', href: '/services/sap-support' },
-    { name: 'Cloud Migration', href: '/services/cloud-migration' }
-  ];
 
   const handleMouseEnter = () => {
     if (timeoutRef.current) {
@@ -142,7 +116,7 @@ export default function Header({
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
                       >
-                        {servicesDropdownItems.map((dropdownItem) => (
+                        {SERVICES_DROPDOWN_ITEMS.map((dropdownItem) => (
                           <Link
                             key={dropdownItem.name}
                             href={dropdownItem.href}
@@ -233,7 +207,7 @@ export default function Header({
                     </div>
                     {isServicesOpen && (
                       <div className="pl-4 pb-2">
-                        {servicesDropdownItems.map((dropdownItem) => (
+                        {SERVICES_DROPDOWN_ITEMS.map((dropdownItem) => (
                           <Link
                             key={dropdownItem.name}
                             href={dropdownItem.href}
