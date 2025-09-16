@@ -84,7 +84,7 @@ export default function Services() {
             <h1 className="text-[#111418] tracking-light text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight w-full">
               Ready to Get Started?
             </h1>
-            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px] mx-auto">
+            <p className="text-[#111418] text-base font-normal leading-normal max-w-4xl mx-auto">
               Contact us today to discuss how we can help transform your business with our SAP expertise.
             </p>
           </div>

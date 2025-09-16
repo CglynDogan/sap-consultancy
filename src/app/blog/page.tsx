@@ -57,7 +57,7 @@ export default function Blog() {
   return (
     <Layout companyName="Tech Solutions" variant="tech-solutions" buttonText="Contact Us">
       <div className="gap-1 px-3 xs:px-4 lg:px-6 flex flex-1 justify-center py-3 xs:py-5">
-        <div className="layout-content-container flex flex-col lg:flex-row max-w-[1200px] flex-1 gap-4 xs:gap-6">
+        <div className="layout-content-container flex flex-col lg:flex-row max-w-6xl flex-1 gap-4 xs:gap-6">
           <div className="flex flex-col flex-1">
             {/* Page Header */}
             <div className="flex flex-wrap justify-between gap-3 p-3 xs:p-4">

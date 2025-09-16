@@ -175,7 +175,7 @@ export default function SAPConsulting() {
             <h1 className="text-[#111418] tracking-light text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight w-full mx-auto">
               Ready for Strategic SAP Consulting?
             </h1>
-            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px] mx-auto">
+            <p className="text-[#111418] text-base font-normal leading-normal max-w-4xl mx-auto">
               Let's discuss your challenges and develop a customized SAP strategy for your organization.
             </p>
           </div>

@@ -421,10 +421,10 @@ export default function TransformingRetailOperationsWithSAP() {
         <div className="w-full mt-12">
           <div className="flex flex-col justify-end gap-6 px-3 xs:px-4 sm:px-6 md:px-8 lg:px-10 py-10 sm:gap-8 sm:py-20">
             <div className="flex flex-col gap-2 text-center">
-              <h1 className="text-[#111418] tracking-light text-[32px] font-bold leading-tight sm:text-4xl sm:font-black sm:leading-tight sm:tracking-[-0.033em] max-w-[720px]">
+              <h1 className="text-[#111418] tracking-light text-[32px] font-bold leading-tight sm:text-4xl sm:font-black sm:leading-tight sm:tracking-[-0.033em] max-w-4xl">
                 Transform Your Retail Operations
               </h1>
-              <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px]">
+              <p className="text-[#111418] text-base font-normal leading-normal max-w-4xl">
                 Discover how SAP solutions can revolutionize your retail business and enhance customer experience.
               </p>
             </div>

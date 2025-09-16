@@ -247,7 +247,7 @@ export default function CloudMigration() {
             <h1 className="text-[#111418] tracking-light text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight w-full mx-auto">
               Ready to Migrate to the Cloud?
             </h1>
-            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px] mx-auto">
+            <p className="text-[#111418] text-base font-normal leading-normal max-w-4xl mx-auto">
               Start your SAP cloud migration journey with our expert team. We'll help you achieve a seamless transition.
             </p>
           </div>

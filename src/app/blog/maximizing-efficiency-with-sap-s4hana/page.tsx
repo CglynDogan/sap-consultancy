@@ -234,7 +234,7 @@ export default function MaximizingEfficiencyWithSAPS4HANA() {
         <div className="@container mt-12">
           <div className="flex flex-col justify-end gap-6 px-4 py-10 @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
             <div className="flex flex-col gap-2 text-center">
-              <h1 className="text-[#111418] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
+              <h1 className="text-[#111418] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-4xl">
                 Ready to Transform with SAP S/4HANA?
               </h1>
               <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px">

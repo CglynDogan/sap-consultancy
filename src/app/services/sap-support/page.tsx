@@ -299,7 +299,7 @@ export default function SAPSupport() {
             <h1 className="text-[#111418] tracking-light text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight w-full mx-auto">
               Need SAP Support?
             </h1>
-            <p className="text-[#111418] text-base font-normal leading-normal max-w-[720px] mx-auto">
+            <p className="text-[#111418] text-base font-normal leading-normal max-w-4xl mx-auto">
               Get reliable, professional SAP support tailored to your business needs. Our expert team is ready to help.
             </p>
           </div>
