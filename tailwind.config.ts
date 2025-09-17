@@ -14,6 +14,30 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        // Add semantic color mappings
+        primary: {
+          DEFAULT: '#009DE0',
+          hover: '#007CC0',
+          light: '#E3F2FD',
+        },
+        secondary: {
+          DEFAULT: '#7c3aed',
+          hover: '#6d28d9',
+        },
+        success: {
+          DEFAULT: '#16a34a',
+          hover: '#15803d',
+        },
+        text: {
+          primary: '#111418',
+          secondary: '#666666',
+          muted: '#999999',
+        },
+        surface: {
+          DEFAULT: '#ffffff',
+          muted: '#f0f2f4',
+          border: '#e5e5e5',
+        },
         sap: {
           // Primary Colors
           'brand-blue': '#009DE0',
