@@ -130,7 +130,7 @@ export default function CaseStudies() {
           </div>
           <div className="flex flex-1 justify-center">
             <Link href="/contact" className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 sm:h-12 px-4 sm:px-5 bg-[#009DE0] text-white text-sm sm:text-base font-bold leading-normal tracking-[0.015em] grow">
-              <span className="truncate">Get Started</span>
+              <span className="truncate">Discuss Your Project</span>
             </Link>
           </div>
         </div>
