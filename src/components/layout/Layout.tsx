@@ -2,6 +2,7 @@
 
 import Header from "./Header";
 import Footer from "./Footer";
+import ScrollToTop from "../ui/ScrollToTop";
 import { HeaderProps } from "@/types";
 
 interface LayoutProps extends HeaderProps {
@@ -32,6 +33,7 @@ export default function Layout({
         </div>
         <Footer />
       </div>
+      <ScrollToTop />
     </div>
   );
 }
