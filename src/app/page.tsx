@@ -22,9 +22,12 @@ export default function Home() {
                 implementations and support.
               </h2>
             </div>
-            <button className="flex min-w-[80px] max-w-[200px] xs:max-w-[280px] sm:max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 xs:h-10 sm:h-12 px-3 xs:px-4 sm:px-5 bg-[#009DE0] text-white text-xs xs:text-sm sm:text-base font-bold leading-normal tracking-[0.015em]">
+            <Link
+              href="/contact"
+              className="flex min-w-[80px] max-w-[200px] xs:max-w-[280px] sm:max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-9 xs:h-10 sm:h-12 px-3 xs:px-4 sm:px-5 bg-[#009DE0] text-white text-xs xs:text-sm sm:text-base font-bold leading-normal tracking-[0.015em]"
+            >
               <span className="truncate">Get Started</span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
