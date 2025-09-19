@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function CaseStudies() {
   return (
-    <Layout companyName="Tech Solutions" variant="tech-solutions" buttonText="Contact Us">
+    <Layout companyName="Tech Solutions" variant="tech-solutions" buttonText="Discuss Your Project">
       {/* Page Header */}
       <div className="flex flex-wrap justify-between gap-3 p-4">
         <div className="flex min-w-72 flex-col gap-3">
