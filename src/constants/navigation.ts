@@ -13,8 +13,7 @@ export const TECH_SOLUTIONS_NAV_ITEMS: NavItem[] = [
   { name: 'About Us', href: '/about' },
   { name: 'Case Studies', href: '/case-studies' },
   { name: 'Insights', href: '/blog' },
-  { name: 'Careers', href: '/careers' },
-  { name: 'Contact Us', href: '/contact' }
+  { name: 'Careers', href: '/careers' }
 ];
 
 export const INNOVATE_SOLUTIONS_NAV_ITEMS: NavItem[] = [
@@ -22,6 +21,5 @@ export const INNOVATE_SOLUTIONS_NAV_ITEMS: NavItem[] = [
   { name: 'Industries', href: '#' },
   { name: 'Solutions', href: '#' },
   { name: 'Resources', href: '#' },
-  { name: 'About Us', href: '/about' },
-  { name: 'Contact', href: '/contact' }
+  { name: 'About Us', href: '/about' }
 ];
