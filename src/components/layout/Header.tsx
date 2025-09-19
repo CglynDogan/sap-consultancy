@@ -153,16 +153,20 @@ export default function Header({
               </div>
             ))}
           </div>
-          <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#009DE0] text-white text-sm font-bold leading-normal tracking-[0.015em]">
-            <span className="truncate">{buttonText}</span>
-          </button>
+          <Link href="/contact">
+            <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#009DE0] text-white text-sm font-bold leading-normal tracking-[0.015em]">
+              <span className="truncate">{buttonText}</span>
+            </button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
         <div className="lg:hidden flex items-center gap-2">
-          <button className="hidden xs:flex min-w-[70px] max-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-2 bg-[#009DE0] text-white text-xs font-bold leading-normal tracking-[0.015em]">
-            <span className="truncate text-xs">{buttonText}</span>
-          </button>
+          <Link href="/contact">
+            <button className="hidden xs:flex min-w-[70px] max-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-2 bg-[#009DE0] text-white text-xs font-bold leading-normal tracking-[0.015em]">
+              <span className="truncate text-xs">{buttonText}</span>
+            </button>
+          </Link>
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="flex items-center justify-center w-9 h-9 text-[#111418] flex-shrink-0"
