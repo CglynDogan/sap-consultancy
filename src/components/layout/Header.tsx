@@ -252,9 +252,13 @@ export default function Header({
               </div>
             ))}
             <div className="py-3 sm:hidden">
-              <button className="w-full flex items-center justify-center rounded-lg h-10 px-4 bg-[#009DE0] text-white text-sm font-bold leading-normal tracking-[0.015em]">
+              <Link
+                href="/contact"
+                className="w-full flex items-center justify-center rounded-lg h-10 px-4 bg-[#009DE0] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 <span className="truncate">{buttonText}</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

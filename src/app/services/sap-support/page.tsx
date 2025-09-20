@@ -163,9 +163,9 @@ export default function SAPSupport() {
                 <span className="text-[#617589] text-sm">Advanced reporting & analytics</span>
               </li>
             </ul>
-            <button className="w-full py-2 px-4 border border-[#009DE0] text-[#009DE0] rounded-lg hover:bg-[#009DE0] hover:text-white transition-colors">
+            <Link href="/enterprise-support" className="w-full py-2 px-4 border border-[#009DE0] text-[#009DE0] rounded-lg hover:bg-[#009DE0] hover:text-white transition-colors flex items-center justify-center">
               Contact Sales
-            </button>
+            </Link>
           </div>
         </div>
       </div>
