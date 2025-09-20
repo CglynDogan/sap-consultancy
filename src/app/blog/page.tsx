@@ -55,7 +55,7 @@ export default function Blog() {
     : blogPosts.filter(post => post.category === selectedCategory);
 
   return (
-    <Layout companyName="Tech Solutions" variant="tech-solutions" buttonText="Contact Us">
+    <Layout companyName="Tech Solutions" variant="tech-solutions" buttonText="Get Insights">
       <div className="gap-1 px-3 xs:px-4 lg:px-6 flex flex-1 justify-center py-3 xs:py-5">
         <div className="layout-content-container flex flex-col lg:flex-row max-w-6xl flex-1 gap-4 xs:gap-6">
           <div className="flex flex-col flex-1">

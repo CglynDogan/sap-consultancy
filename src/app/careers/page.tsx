@@ -2,7 +2,7 @@ import { Layout } from '@/components';
 
 export default function Careers() {
   return (
-    <Layout companyName="Tech Solutions" variant="tech-solutions" buttonText="Contact Us">
+    <Layout companyName="Tech Solutions" variant="tech-solutions" buttonText="Join Our Team">
       {/* Page Header */}
       <div className="flex flex-wrap justify-between gap-3 p-3 xs:p-4">
         <div className="flex min-w-0 flex-col gap-3 w-full">
