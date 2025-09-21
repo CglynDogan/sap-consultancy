@@ -158,6 +158,31 @@ export default function Contact() {
         </div>
       </div>
 
+      {/* Google Maps Section */}
+      <div className="w-full p-3 xs:p-4">
+        <div className="flex flex-col gap-4">
+          <h2 className="text-[#111418] text-lg xs:text-xl sm:text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Find Our Office</h2>
+          <div className="w-full h-64 md:h-80 lg:h-96 rounded-lg overflow-hidden border border-[#dbe0e6]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.7756990419!2d-123.12073092336728!3d49.28273717138398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671815b3b8b55%3A0x4a6e1e4b8a8a8a8a!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1682012345678!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Tech Solutions Office Location in Vancouver, BC"
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          <div className="text-center">
+            <p className="text-[#617589] text-sm font-normal leading-normal">
+              Our office is conveniently located in Vancouver's business district, easily accessible by public transportation.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* CTA Section */}
       <div className="w-full">
         <div className="flex flex-col justify-end gap-4 xs:gap-6 sm:gap-8 px-3 xs:px-4 sm:px-6 md:px-8 lg:px-10 py-8 xs:py-10 sm:py-20">
